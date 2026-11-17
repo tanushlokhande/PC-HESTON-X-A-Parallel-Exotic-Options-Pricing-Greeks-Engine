@@ -1,0 +1,2 @@
+# PC-HESTON-X-A-Parallel-Exotic-Options-Pricing-Greeks-Engine
+A derivatives desk holds a book of path-dependent exotic options on one underlying whose volatility is stochastic . No closed form exists for the exotics, so the book must be priced and risk-managed (Delta, Vega) by Monte Carlo. Doing this for 5 market scenarios x millions of paths x 252 monitoring dates is the bottleneck, so we parallelise it.
